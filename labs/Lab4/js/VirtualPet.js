@@ -7,7 +7,7 @@ Feburary 10, 2022
 */
 	
 
-let pet = {x:200,y:300,size:20,offsetX:0}
+let pet = {x:300,y:400,size:25,offsetX:0}
 
 function setup(){
     createCanvas(windowWidth,windowHeight-10)

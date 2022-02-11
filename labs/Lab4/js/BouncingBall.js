@@ -14,7 +14,7 @@ let ball = {
     xChange:-5,
     yChange:5,
     size:10,
-    color:"blue"
+    color:"orange"
 }
 function draw() {
     background('gray')
