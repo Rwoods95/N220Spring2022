@@ -7,22 +7,18 @@ Feburary 10, 2022
 */
 	
 
-function setup() {
-  createCanvas(900, 800);
+function polarPoint(r){
+    let x = r * Math.sin(mouseX);
+    let y = r * Math.cos(mouseX);
+    return createVector(x,y);
 }
-
-function polarPoint(r){ //polar point function
-  var x = r*Math.sin(mouseX);// create an x variable and set it to r * Math.sin(mouseX);
-  var y = r*Math.cos(mouseX); //Create a Y variable, set it to the result of r * Math.cos(mouseX)//
-
-  return createVector(x,y); //write return createVector(x,y); 
+function setup(){
+    createCanvas(800,800)
+    background('blue')
 }
-
 function draw(){
-  
-  var res = polarPoint();
-  translate(100,100);
-  background(150);
-  circle(res.x, res.y, 10)
-  console.log(res)
+    let res = polarPoint(400);
+    console.log(res);
+    translate(400,400);
+    circle(res.x, res.y, 10);
 }
