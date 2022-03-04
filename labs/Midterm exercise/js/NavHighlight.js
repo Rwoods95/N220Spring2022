@@ -2,7 +2,7 @@
 
 Rashard Woods
 NEWM-N 220 
-March 1, 2022
+March 1 , 2022
 
 */
 //get 6 divs by ID from html
